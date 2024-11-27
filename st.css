@@ -1,0 +1,153 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-y: unset;
+  overflow-x: auto;
+    color: white;
+    background-color: #222;
+}
+h2{
+    margin-top: 0px;
+    display: -webkit-inline-box;
+    color: blue;
+    background-color: aliceblue;
+    margin-left: 5%;
+}
+#waveform {
+    width: 71.5%;
+    height: 32px;
+    margin-top: 0px;
+    background-color: rgba(243, 235, 235, 0.863);
+    border-radius: 2px;
+    border: 1.5px solid #e00606;
+    margin-left: 6%;
+}
+.video-Player{
+    position: absolute;
+   left: 86%;
+    right: 0%;
+    top: 40%;
+    transform: translate(-39%, -50%);
+    width: 280px;
+    height: 260px;
+    resize: inherit;
+    border: 0.1px darkolivegreen #fdfcfc;
+    
+}
+.current-time{
+    margin-left: 6%;
+}
+#text-editor {
+    border: 0.5px solid #fdfcfc;
+    width: 70%;
+    height: 480px;
+    margin-top: 2px;
+    font-size: 16px; 
+    margin-left: 6%;
+    margin-top: 5px;
+    resize: none;
+    overflow-y: auto;
+    background: #444;
+    color: #fff;
+
+}
+.btn-transcribe{
+    display: block;
+    margin-left: 6%;
+    text-shadow: #fff;
+    border: 0.5px solid #e00606;
+    border-radius: 0px;
+    font-size: 12px;
+    
+}
+.controls {
+    margin-top: 2px;
+    display: inline-block;
+    border-radius: 2px;
+    border: 0.5px solid #e00606d3;
+    display: -webkit-inline-box;
+    margin-left: 6%;
+}
+.controls button {
+    margin-right: 0px;
+    cursor: pointer;
+    text-decoration: #222;
+    display: -webkit-inline-box;
+}
+#speed-control {
+    margin-top: 2px;
+    display: -webkit-inline-box;
+}
+body.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+body.dark-mode #text-editor {
+    background-color: #111;
+    color: white;
+}
+body.dark-mode #waveform {
+    background-color: #fff;
+}
+#find-replace-box {
+    position: absolute;
+    left: 80%;
+    top: 90px;
+    transform: translate(-15%, -40%);
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    width: 200px;
+    display: none;  /* Hidden by default */
+}
+
+#find-replace-box input {
+    display: block;
+    margin-bottom: 3px;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#find-replace-box button {
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+.find-btn{
+    position: absolute;
+    top: 39px;
+   left: 80%; 
+   border: 1px solid #ccc;
+   }
+.find-btn:hover{
+    background-color: #f44336;
+    color: white;
+    transition-duration: 0.4s;
+  cursor: pointer;  
+}  
+
+
+/* style.css */
+@media only screen and (max-width: 767px) {
+    /* Styles for mobile view */
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    #content {
+        /* Styles for the content in mobile view */
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* Styles for desktop view */
+    body {
+        font-size: 16px;
+        padding: 3px;
+    }
+
+   
+}
